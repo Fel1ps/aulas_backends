@@ -27,15 +27,19 @@
 
 <div class="container">
     <?php
-       for($tabuada = 1; $tabuada<= 10; $tabuada++){
+      //for($tabuada = 1; $tabuada <=10; $tabuada++){}
+      $tabuada = 1;
+       while($tabuada <= 10){
         echo "<div>";
-            for($contador = 0; $contador <= 10; $contador++){
+        //for($contador = 1; $contador <= 10; $contador++)
+        $contador = 0;    
+        while($contador <= 10){
                     $resultado = $tabuada * $contador;
                     echo "$tabuada x $contador = $resultado <br>";
-                echo "<br>";
+                    $contador++;
             }
         echo "</div>"; 
-            
+        $tabuada++;
         }
       
     ?>
