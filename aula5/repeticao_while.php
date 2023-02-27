@@ -10,7 +10,7 @@
     }
 </style>
 
-<h2>Estrutura de repetição for</h2>
+<h2>Estrutura de repetição while</h2>
 <p>
     Utilizada para repetir uma sequencia de 
     istruções um número determinado de vezes.
