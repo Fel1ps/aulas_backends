@@ -1,11 +1,7 @@
 <?php
-        $cor = ["yellow", "green", "blue", "pink", "red", "purple", "orange", "gray", "white"];
+        $cores = ["yellow", "green", "blue", "pink", "red", "purple", "orange", "gray", "white"];
 
-        foreach($cor as $key => $cor){
-          echo "<a href='atividade1.php?cor=$cor'>
-                Mudar para $cor 
-                </a>" . "</br>";
-        }
+       
 
         if(isset($_GET['cor'])){
             $cor = $_GET['cor'];
@@ -29,6 +25,12 @@
     </style>
 </head>
 <body>
-    
+    <?php 
+    foreach($cores as $key => $cor){
+          echo "<a href='atividade1.php?cor=$cor'>
+                Mudar para $cor 
+                </a>" . "</br>";
+        }
+    ?>
 </body>
 </html>
