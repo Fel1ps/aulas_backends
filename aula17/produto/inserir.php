@@ -11,7 +11,7 @@
    $foto ="semfoto.png";
   
    //String com o comando SQL para ser executado no DB
-  $sql = "INSERT INTO `produto` (`nome`, `preco`, `descricao`, `foto`) VALUES (?, ?, ?, ?);";
+  $sql = "INSERT INTO `produto` (`nome`, `descricao`, `preco`, `foto`) VALUES (?, ?, ?, ?);";
   echo $sql;
 
 //Prepara o SQL para ser executado no banco de dados
@@ -24,4 +24,4 @@ $comando->bind_param("ssds", $nome, $descricao, $preco, $foto);
 $comando->execute();
    }
 //abre o arquivo form.php
-header("Location: form.php");
+header("Location: produtos.php");
