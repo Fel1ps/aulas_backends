@@ -22,7 +22,7 @@
 
     $tabela = [$aluno1, $aluno2, $aluno3];
 
-    for ($i=0; $i < 3; $i++) { 
+    for ($i=0; $i <0 3; $i++) { 
         foreach ($tabela[$i] as $key => $value) {
             echo $value . "<br>";
         }
