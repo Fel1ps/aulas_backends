@@ -28,4 +28,4 @@ $comando->bind_param("ssssi", $nome, $login, $senha, $foto, $id);
 $comando->execute();
    }
 //abre o arquivo form.php
-header("Location: usuarios.php");
+header("Location: index.php");

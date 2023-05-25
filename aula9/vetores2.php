@@ -4,7 +4,7 @@
     nome    |Notebook|
             +--------+
             +--------+
-    nome    |Dell    |
+    marca   |Dell    |
             +--------+
             +--------+
     preco   |5.400   |
