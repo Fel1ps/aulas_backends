@@ -1,6 +1,8 @@
+<?php include_once "../controla_sessao/verifica_login.php"; ?>
 <?php include_once "../template/cabecalho.php"; ?>
 
-<form action="verifica_login.php" method="post";>
+<div class="container">
+<form action="form_login.php" method="post";>
 
 <labelfor="login" class="form-label">Usuário</label>
 <input type="text" name="usuario" class="form-control">
@@ -12,3 +14,5 @@
 </form>
 
 <?php include_once "../template/rodape.php"; ?>
+
+</div>
