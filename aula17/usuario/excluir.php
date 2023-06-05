@@ -1,3 +1,4 @@
+<?php require_once "../controla_sessao/controla.php"; ?>
 <?php 
 
    //inclui o codigo da 'conexao.php' para essa linha
