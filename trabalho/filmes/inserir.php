@@ -3,12 +3,8 @@
    //inclui o codigo da 'conexao.php' para essa linha
    require_once "../conexao.php";
 
-   if(isset($_POST["titulo"]) && isset($_POST["diretor"])  && isset($_POST["ano"]) && isset($_POST["genero"]))
-   {
-
-      //inclui o arquivo para salvar a foto do upload
-      require_once "salvar_foto.php";
-
+   if(isset($_POST["titulo"])){
+   
    $titulo = $_POST["titulo"];
    $diretor = $_POST["diretor"];
    $ano = $_POST["ano"];

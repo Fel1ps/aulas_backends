@@ -19,3 +19,5 @@ if($conexao->connect_error){
                                 $conexao->connect_error;
     die();
 }
+
+?>

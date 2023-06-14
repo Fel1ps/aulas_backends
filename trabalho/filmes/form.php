@@ -1,6 +1,7 @@
-<?php require_once "consultar_por_id.php" ?>
+
 <?php require_once "../template/cabecalho.php"?>
 
+<div class="container">
     <h1>Cadastro de Filmes</h1>
     <hr>
 
@@ -15,7 +16,7 @@
     <textarea name="diretor" id="diretor"><?php echo $filmes['diretor'] ?? ""; ?></textarea><br>
 
     <label for="ano">Ano</label><br>
-    <input type="number" step="0.01" name="ano" id="ano" value="<?php echo $filmes['ano'] ?? ""; ?>"><br>
+    <input type="year" name="ano" id="ano" value="<?php echo $filmes['ano'] ?? ""; ?>"><br>
 
     <label for="genero">Genero</label><br>
     <textarea name="genero" id="genero"><?php echo $filmes['genero'] ?? ""; ?></textarea><br>
@@ -23,4 +24,5 @@
     <button type="submit">Cadastrar</button>
 
     </form>
+</div>
     <?php require_once "../template/rodape.php"; ?>
