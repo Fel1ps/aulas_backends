@@ -1,4 +1,5 @@
 
+<?php require_once "consultar_por_id.php" ?>
 <?php require_once "../template/cabecalho.php"?>
 
 <div class="container">
@@ -10,7 +11,7 @@
 
     <label for="titulo">Titulo</label><br>
     <input type="text" name="titulo" id="titulo" value="<?php echo $filmes['titulo'] ?? ""; ?>"><br>
-    <input type="hidden" name="id" id="id" value="<?php echo $filmes['idproduto'] ?? ""; ?>"><br>
+    <input type="hidden" name="id" id="id" value="<?php echo $filmes['idfilmes'] ?? ""; ?>"><br>
 
     <label for="diretor">Diretor</label><br>
     <textarea name="diretor" id="diretor"><?php echo $filmes['diretor'] ?? ""; ?></textarea><br>

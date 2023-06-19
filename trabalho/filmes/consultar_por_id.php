@@ -25,6 +25,6 @@ $comando->execute();
 $resultado = $comando->get_result();
 
 //pegar a primeira linha de resultado
-$produto = $resultado->fetch_assoc();
+$filmes = $resultado->fetch_assoc();
 
 }

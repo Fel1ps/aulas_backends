@@ -21,7 +21,7 @@
 $comando = $conexao->prepare($sql);
 
 //adiciona os valores nos parâmetros
-$comando->bind_param("ssis", $titulo, $diretor, $ano, $genero,);
+$comando->bind_param("ssisi", $titulo, $diretor, $ano, $genero, $id);
 
 //executa o SQL - Comando no Banco de Dados
 $comando->execute();
